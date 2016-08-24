@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="res/css/mobile.css" />
+<script type="text/javascript" src="res/js/app.js"></script>
+<title>登录页</title>
+</head>
+<body id="bg" onload="bgZoom()" onresize="bgZoom()">
+    <div class="logo">
+    	<img src="res/images/logo.png" />
+    </div>
+    <div class="banner">
+    	<div class="banner_tit">
+        	<img src="res/images/tit.png" />
+        </div>
+        <div class="banner_img">
+        	<img src="res/images/banner.png" />
+            <img src="res/images/leaf1.png" class="leaf1"/>
+            <img src="res/images/leaf2.png" class="leaf2" />
+        </div>
+    </div>
+    <div class="login_box">
+    	<div class="vote_tit">GSK e信使形象大使<br />报名投票系统</div>
+        <div class="input_line">
+        	<input type="text" class="txt" value="姓名" onblur="if(this.value=='姓名'||this.value=='') this.value='姓名';" onfocus="if(this.value=='姓名') this.value='';"/>
+        </div>
+        <div class="input_line">
+        	<input type="text" class="txt" value="员工号" onblur="if(this.value=='员工号'||this.value=='') this.value='员工号';" onfocus="if(this.value=='员工号') this.value='';"/>
+        </div>
+        <div class="login_btn">
+        	<input type="button" class="btn" value="登录"/>
+        </div>
+    </div>
+    <div class="pop_box" id="pop_box">
+    	<div class="pop_tit">e信使是什么</div>
+        <div class="pop_cont">
+        	<div class="cont_intro">
+            	<p>e信使，万托林在医脉通平台的呼吸领域形象代言人，呼吸科医生最贴心的的学术联络官。</p>
+                <p>传递学术信息，解答医生难题。</p>
+            </div>
+            <div class="cont_img">
+            	<img src="res/images/intro_img.jpg" />
+            </div>
+            <div class="cont_list">
+            	<h4>代表获益：</h4>
+            	<ul>
+                	<li><span></span>降低拜访的难度——e信使可以提高品牌对医生的曝光率，降低代表在拜访医生时的难度</li>
+                    <li><span></span>增加拜访的话题——代表拜访医生客户时：“我们最近在医脉通平台上线了万托林e信使……”</li>
+                    <li><span></span>提高拜访的质量——e信使更专业的学术内容可以辅助代表实施学术宣传，从而提高拜访质量</li>
+                    <li><span></span>提高拜访的效率——e信使更多样的内容形式可以降低医生学习的难度，从而提高拜访效率</li>
+                </ul>
+            </div>
+            <div class="btn_box center">
+            	<input type="button" class="btn btn1" value="知道了"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
